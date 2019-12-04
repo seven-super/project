@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;list-style: none;}
+
+html,body,h1,h2,h3,h4,h5,h6,p,div,a,
+    ::before,
+    ::after{
+        margin: 0;
+        padding: 0;
+        -webkit-tap-highlight-color: transparent;/*清除点击默认的高亮效果*/
+        box-sizing:border-box;
+        -moz-box-sizing:border-box; /* Firefox */
+        -webkit-box-sizing:border-box; /* Safari */
+        font-size:100%;
+    }
+    html{width:100%;height:100%; font-size:10px;}
+    body{  font-family: "Microsoft YaHei",sans-serif,simsun;/*第二个是手机的一个默认的字体*/
+        height: 100%;max-width:640px;background: #d9edf7;  font-size: 1.25rem;  margin:0 auto;}
+    .container{max-width:640px;background-color: #5aa9ec ;height:100%;overflow-x: hidden;overflow-y: scroll;}
+    ::-webkit-scrollbar{width:0px}
+    .page-head{width:100%;background:#fff;padding:0.5rem 0;box-shadow: 1px 1px 4px #a9a9a9;color: #000000;padding-left: 15px;}
+    h3 {
+        text-align: center;
+        color: #fff;
+        line-height: 4rem;
+        font-weight: bold;
+        font-size:2.05rem;
+    }
+    .introdu{
+        text-align: center;
+        color: #fff;
+        line-height: 2.5rem;
+        font-size: 1.4rem;
+        padding: 0 10%;
+    }
+    .back-img{
+        padding: 40px 0 10px 0;
+        text-align: center;
+    }
+    .back-img img{
+        width: 55%;
+    }
+    .page-option{
+        text-align: center;
+        margin-top: 15%;
+    }
+    .page-option button{
+        border: 1px solid #1c87bf;
+        background: #ffffff;
+        color: #1c87bf;
+        height: 40px;
+        width: 35%;
+        margin: auto 15px;
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 10%;
+        border-radius: 5px;
+    }
+    .page-option button:hover,.page-option button:focus{
+        background: #000000;
+        color: #ce5511;
+        filter:alpha(Opacity=50);
+        -moz-opacity:0.5;
+        opacity: 0.5;
+    }
+	.page-option a,.page-option a:hover{
+		text-decoration:none;
+		z-index: -1;
+	}
+    .page-option img{
+        height: 32px;
+        padding: 0 0;
+        vertical-align: middle;
+    }
+    #weixin-tip{display:none;position:fixed;left:0;top:0;background:rgba(0,0,0,0.8);filter:alpha(opacity=80);width:100%;height:100%;z-index:100;}
+    #weixin-tip img{width:100%;}
+    #weixin-tip p{text-align:center;margin-top:10%;padding:0 5%;position:relative;}
+    #weixin-tip .close{color:#fff;padding:5px;font:bold 20px/24px simsun;text-shadow:0 1px 0 #ddd;position:absolute;top:0;left:5%;}
+    #weixin-tip button:hover,#weixin-tip button:focus{border-style: none}
+	
