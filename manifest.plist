@@ -11,7 +11,7 @@
             <key>kind</key>
             <string>software-package</string>
             <key>url</key>
-            <string>https://seven-super.github.io/project/BohaiCRMApp.ipa </string>
+            <string>https://seven-super.github.io/project/BohaiDkhApp.ipa </string>
           </dict>
           <dict>
             <key>kind</key>
@@ -35,13 +35,13 @@
           <key>bundle-identifier</key>
           <string>com.bhzq.tzt.cn</string>
           <key>bundle-version</key>
-          <string>8.0</string>
+          <string>1.0</string>
           <key>kind</key>
           <string>software</string>
           <key>subtitle</key>
           <string></string>
           <key>title</key>
-          <string>BohaiCRMApp</string>
+          <string>BohaiDkhApp</string>
         </dict>
       </dict>
     </array>
