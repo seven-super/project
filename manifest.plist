@@ -35,13 +35,13 @@
           <key>bundle-identifier</key>
           <string>com.bhzq.tzt.cn</string>
           <key>bundle-version</key>
-          <string>8.0</string>
+          <string>1.0</string>
           <key>kind</key>
           <string>software</string>
           <key>subtitle</key>
           <string></string>
           <key>title</key>
-          <string>BohaiCRMApp</string>
+          <string>渤海CRM</string>
         </dict>
       </dict>
     </array>
